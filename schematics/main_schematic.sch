@@ -10575,6 +10575,9 @@ W = angled&lt;p&gt;
 <part name="Q3" library="fets" deviceset="MOSFET-NCHANNEL" device="SMD" value="IRLML0030TRPBF"/>
 <part name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="FAN1" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-03-PIN" device="-LONG-PAD" value="FAN1"/>
+<part name="FAN2" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-03-PIN" device="-LONG-PAD" value="FAN2"/>
+<part name="FAN3" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-03-PIN" device="-LONG-PAD" value="FAN3"/>
 </parts>
 <sheets>
 <sheet>
@@ -11786,10 +11789,61 @@ W = angled&lt;p&gt;
 <plain>
 </plain>
 <instances>
+<instance part="FAN1" gate="-1" x="17.78" y="76.2" rot="R180"/>
+<instance part="FAN1" gate="-2" x="17.78" y="78.74" rot="R180"/>
+<instance part="FAN1" gate="-3" x="17.78" y="81.28" rot="R180"/>
+<instance part="FAN2" gate="-1" x="17.78" y="58.42" rot="R180"/>
+<instance part="FAN2" gate="-2" x="17.78" y="60.96" rot="R180"/>
+<instance part="FAN2" gate="-3" x="17.78" y="63.5" rot="R180"/>
+<instance part="FAN3" gate="-1" x="17.78" y="38.1" rot="R180"/>
+<instance part="FAN3" gate="-2" x="17.78" y="40.64" rot="R180"/>
+<instance part="FAN3" gate="-3" x="17.78" y="43.18" rot="R180"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="FAN1-" class="0">
+<segment>
+<pinref part="FAN1" gate="-3" pin="S"/>
+<wire x1="20.32" y1="81.28" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
+<label x="22.86" y="81.28" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="FAN1+" class="0">
+<segment>
+<pinref part="FAN1" gate="-2" pin="S"/>
+<wire x1="20.32" y1="78.74" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
+<label x="22.86" y="78.74" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="FAN2+" class="0">
+<segment>
+<pinref part="FAN2" gate="-2" pin="S"/>
+<wire x1="20.32" y1="60.96" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
+<label x="22.86" y="60.96" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="FAN3-" class="0">
+<segment>
+<pinref part="FAN3" gate="-3" pin="S"/>
+<wire x1="20.32" y1="43.18" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
+<label x="22.86" y="43.18" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="FAN3+" class="0">
+<segment>
+<pinref part="FAN3" gate="-2" pin="S"/>
+<wire x1="20.32" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
+<label x="22.86" y="40.64" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="FAN2-" class="0">
+<segment>
+<pinref part="FAN2" gate="-3" pin="S"/>
+<wire x1="20.32" y1="63.5" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
+<label x="22.86" y="63.5" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
