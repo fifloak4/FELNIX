@@ -17553,6 +17553,148 @@ see:  http://www.reprap.org</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-lstb" urn="urn:adsk.eagle:library:162">
+<description>&lt;b&gt;Pin Headers&lt;/b&gt;&lt;p&gt;
+Naming:&lt;p&gt;
+MA = male&lt;p&gt;
+# contacts - # rows&lt;p&gt;
+W = angled&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="MA05-2" urn="urn:adsk.eagle:footprint:8267/1" library_version="1">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-5.715" y1="2.54" x2="-4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="2.54" x2="-3.81" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="1.905" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-1.27" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="2.54" x2="-6.35" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="1.27" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="1.905" x2="4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="2.54" x2="5.715" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="1.27" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-1.905" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-2.54" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="1.905" x2="-6.35" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="-1.905" x2="-5.715" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-2.54" x2="-5.715" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-1.905" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="-2.54" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-2.54" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-2.54" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="1.905" x2="6.35" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="2.54" x2="6.35" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="-1.905" x2="5.715" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="-5.08" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="3" x="-2.54" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="5" x="0" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="7" x="2.54" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="9" x="5.08" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="2" x="-5.08" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="4" x="-2.54" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="6" x="0" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="8" x="2.54" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="10" x="5.08" y="1.27" drill="1.016" shape="octagon"/>
+<text x="-5.588" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
+<text x="-6.35" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="4.572" y="2.921" size="1.27" layer="21" ratio="10">10</text>
+<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
+<rectangle x1="-5.334" y1="-1.524" x2="-4.826" y2="-1.016" layer="51"/>
+<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
+<rectangle x1="4.826" y1="-1.524" x2="5.334" y2="-1.016" layer="51"/>
+<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
+<rectangle x1="-5.334" y1="1.016" x2="-4.826" y2="1.524" layer="51"/>
+<rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
+<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
+<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
+<rectangle x1="4.826" y1="1.016" x2="5.334" y2="1.524" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="MA05-2" urn="urn:adsk.eagle:package:8329/1" type="box" library_version="1">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="MA05-2"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MA05-2" urn="urn:adsk.eagle:symbol:8266/1" library_version="1">
+<wire x1="3.81" y1="-7.62" x2="-3.81" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-1.27" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="-3.81" y1="7.62" x2="-3.81" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-1.27" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.6096" layer="94"/>
+<text x="-3.81" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-3.81" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="5" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="-7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="6" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="7" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="9" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="8" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="10" x="-7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MA05-2" urn="urn:adsk.eagle:component:8370/1" prefix="SV" uservalue="yes" library_version="1">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MA05-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MA05-2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8329/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17619,7 +17761,7 @@ see:  http://www.reprap.org</description>
 </sheet>
 </sheets>
 </module>
-<module name="CPU" prefix="" dx="55.88" dy="96.52">
+<module name="CPU" prefix="" dx="96.52" dy="96.52">
 <ports>
 <port name="X-MIN" side="right" coord="43.18" direction="in"/>
 <port name="X-MAX" side="right" coord="40.64" direction="in"/>
@@ -17627,13 +17769,29 @@ see:  http://www.reprap.org</description>
 <port name="Y-MAX" side="right" coord="35.56" direction="in"/>
 <port name="Z-MIN" side="right" coord="33.02" direction="in"/>
 <port name="Z-MAX" side="right" coord="30.48" direction="in"/>
-<port name="+3V3" side="top" coord="-22.86" direction="pwr"/>
-<port name="+5V" side="top" coord="-15.24" direction="pwr"/>
-<port name="+12V" side="top" coord="-7.62" direction="pwr"/>
+<port name="+3V3" side="top" coord="-45.72" direction="pwr"/>
+<port name="+5V" side="top" coord="-38.1" direction="pwr"/>
+<port name="+12V" side="top" coord="-30.48" direction="pwr"/>
 <port name="GND" side="bottom" coord="-22.86" direction="pwr"/>
 <port name="FAN1" side="right" coord="25.4" direction="out"/>
 <port name="FAN2" side="right" coord="22.86" direction="out"/>
 <port name="FAN3" side="right" coord="20.32" direction="out"/>
+<port name="MISO" side="top" coord="-15.24" direction="in"/>
+<port name="MOSI" side="top" coord="-12.7" direction="out"/>
+<port name="SCK" side="top" coord="-10.16" direction="out"/>
+<port name="RESET" side="top" coord="-7.62" direction="io"/>
+<port name="ENCB" side="top" coord="0" direction="in"/>
+<port name="ENCA" side="top" coord="2.54" direction="in"/>
+<port name="CS1" side="top" coord="5.08" direction="out"/>
+<port name="CARDDETECT" side="top" coord="7.62" direction="in"/>
+<port name="BEEPER" side="top" coord="20.32" direction="out"/>
+<port name="ENCP" side="top" coord="22.86" direction="in"/>
+<port name="LCD4" side="top" coord="25.4" direction="out"/>
+<port name="LCD5" side="top" coord="27.94" direction="out"/>
+<port name="LCD6" side="top" coord="30.48" direction="out"/>
+<port name="LCD7" side="top" coord="33.02" direction="out"/>
+<port name="LCD_ENA" side="top" coord="35.56" direction="out"/>
+<port name="LCD_RS" side="top" coord="38.1" direction="out"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -18955,6 +19113,211 @@ see:  http://www.reprap.org</description>
 </sheet>
 </sheets>
 </module>
+<module name="EXP2" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="BEEPER" side="bottom" coord="-12.7" direction="in"/>
+<port name="ENCP" side="bottom" coord="-10.16" direction="out"/>
+<port name="LCD4" side="bottom" coord="-7.62" direction="in"/>
+<port name="LCD5" side="bottom" coord="-5.08" direction="in"/>
+<port name="LCD6" side="bottom" coord="-2.54" direction="in"/>
+<port name="LCD7" side="bottom" coord="0" direction="in"/>
+<port name="LCD_ENA" side="bottom" coord="2.54" direction="in"/>
+<port name="LCD_RS" side="bottom" coord="5.08" direction="in"/>
+<port name="+5V" side="right" coord="7.62" direction="pwr"/>
+<port name="GND" side="right" coord="2.54" direction="pwr"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+<part name="EXP2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA05-2" device="" package3d_urn="urn:adsk.eagle:package:8329/1"/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="EXP2" gate="G$1" x="22.86" y="20.32"/>
+<instance part="P+1" gate="1" x="38.1" y="35.56"/>
+<instance part="GND1" gate="1" x="-5.08" y="20.32"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="ENCP" class="0">
+<segment>
+<pinref part="EXP2" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="15.24" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
+<label x="33.02" y="15.24" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LCD_RS" class="0">
+<segment>
+<pinref part="EXP2" gate="G$1" pin="3"/>
+<wire x1="30.48" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
+<label x="33.02" y="17.78" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LCD5" class="0">
+<segment>
+<pinref part="EXP2" gate="G$1" pin="5"/>
+<wire x1="30.48" y1="20.32" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
+<label x="33.02" y="20.32" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LCD7" class="0">
+<segment>
+<pinref part="EXP2" gate="G$1" pin="7"/>
+<wire x1="30.48" y1="22.86" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
+<label x="33.02" y="22.86" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LCD6" class="0">
+<segment>
+<pinref part="EXP2" gate="G$1" pin="8"/>
+<wire x1="15.24" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
+<label x="12.7" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="LCD4" class="0">
+<segment>
+<pinref part="EXP2" gate="G$1" pin="6"/>
+<wire x1="15.24" y1="20.32" x2="12.7" y2="20.32" width="0.1524" layer="91"/>
+<label x="12.7" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="LCD_ENA" class="0">
+<segment>
+<pinref part="EXP2" gate="G$1" pin="4"/>
+<wire x1="15.24" y1="17.78" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
+<label x="12.7" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BEEPER" class="0">
+<segment>
+<pinref part="EXP2" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="15.24" x2="12.7" y2="15.24" width="0.1524" layer="91"/>
+<label x="12.7" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="EXP2" gate="G$1" pin="10"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="15.24" y1="25.4" x2="-5.08" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="25.4" x2="-5.08" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="EXP2" gate="G$1" pin="9"/>
+<pinref part="P+1" gate="1" pin="+5V"/>
+<wire x1="30.48" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="25.4" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="EXP1" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="CARDDETECT" side="bottom" coord="10.16" direction="out"/>
+<port name="CS1" side="bottom" coord="7.62" direction="in"/>
+<port name="ENCA" side="bottom" coord="5.08" direction="out"/>
+<port name="ENCB" side="bottom" coord="2.54" direction="out"/>
+<port name="GND" side="left" coord="7.62" direction="pwr"/>
+<port name="MISO" side="bottom" coord="-12.7" direction="out"/>
+<port name="MOSI" side="bottom" coord="-10.16" direction="in"/>
+<port name="RESET" side="bottom" coord="-5.08" direction="out"/>
+<port name="SCK" side="bottom" coord="-7.62" direction="in"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+<part name="EXP1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA05-2" device="" package3d_urn="urn:adsk.eagle:package:8329/1"/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="EXP1" gate="G$1" x="33.02" y="15.24"/>
+<instance part="GND1" gate="1" x="5.08" y="15.24"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="SCK" class="0">
+<segment>
+<pinref part="EXP1" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="10.16" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
+<label x="43.18" y="10.16" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CS1" class="0">
+<segment>
+<pinref part="EXP1" gate="G$1" pin="3"/>
+<wire x1="40.64" y1="12.7" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
+<label x="43.18" y="12.7" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MOSI" class="0">
+<segment>
+<pinref part="EXP1" gate="G$1" pin="5"/>
+<wire x1="40.64" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
+<label x="43.18" y="15.24" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="RESET" class="0">
+<segment>
+<pinref part="EXP1" gate="G$1" pin="7"/>
+<wire x1="40.64" y1="17.78" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
+<label x="43.18" y="17.78" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CARDDETECT" class="0">
+<segment>
+<pinref part="EXP1" gate="G$1" pin="8"/>
+<wire x1="25.4" y1="17.78" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
+<label x="22.86" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ENCB" class="0">
+<segment>
+<pinref part="EXP1" gate="G$1" pin="6"/>
+<wire x1="25.4" y1="15.24" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
+<label x="22.86" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ENCA" class="0">
+<segment>
+<pinref part="EXP1" gate="G$1" pin="4"/>
+<wire x1="25.4" y1="12.7" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
+<label x="22.86" y="12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MISO" class="0">
+<segment>
+<pinref part="EXP1" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="10.16" x2="22.86" y2="10.16" width="0.1524" layer="91"/>
+<label x="22.86" y="10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="EXP1" gate="G$1" pin="10"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="25.4" y1="20.32" x2="5.08" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="20.32" x2="5.08" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+</nets>
+</sheet>
+</sheets>
+</module>
 </modules>
 <parts>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -18981,6 +19344,9 @@ see:  http://www.reprap.org</description>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18999,6 +19365,8 @@ see:  http://www.reprap.org</description>
 <moduleinst name="FAN5" module="FAN" x="200.66" y="76.2"/>
 <moduleinst name="FAN6" module="FAN" x="200.66" y="30.48"/>
 <moduleinst name="FAN_CON1" module="FAN_CON" x="276.86" y="88.9"/>
+<moduleinst name="EXP1" module="EXP1" x="81.28" y="342.9"/>
+<moduleinst name="EXP2" module="EXP2" x="116.84" y="342.9"/>
 </moduleinsts>
 <instances>
 <instance part="GND15" gate="1" x="200.66" y="208.28"/>
@@ -19022,9 +19390,12 @@ see:  http://www.reprap.org</description>
 <instance part="GND23" gate="1" x="200.66" y="55.88"/>
 <instance part="GND24" gate="1" x="200.66" y="10.16"/>
 <instance part="GND1" gate="1" x="60.96" y="200.66"/>
-<instance part="+3V1" gate="G$1" x="60.96" y="317.5"/>
-<instance part="P+1" gate="1" x="68.58" y="317.5"/>
-<instance part="P+2" gate="1" x="76.2" y="317.5"/>
+<instance part="+3V1" gate="G$1" x="38.1" y="317.5"/>
+<instance part="P+1" gate="1" x="45.72" y="317.5"/>
+<instance part="P+2" gate="1" x="53.34" y="317.5"/>
+<instance part="P+3" gate="1" x="142.24" y="355.6"/>
+<instance part="GND2" gate="1" x="58.42" y="345.44"/>
+<instance part="GND3" gate="1" x="139.7" y="340.36"/>
 </instances>
 <busses>
 </busses>
@@ -19032,7 +19403,7 @@ see:  http://www.reprap.org</description>
 <net name="N$11" class="0">
 <segment>
 <portref moduleinst="ARDUINO_DUE" port="X-MIN"/>
-<wire x1="116.84" y1="302.26" x2="160.02" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="302.26" x2="160.02" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="302.26" x2="160.02" y2="314.96" width="0.1524" layer="91"/>
 <portref moduleinst="X-MIN" port="ENDSTOP-OUT"/>
 <wire x1="160.02" y1="314.96" x2="177.8" y2="314.96" width="0.1524" layer="91"/>
@@ -19041,7 +19412,7 @@ see:  http://www.reprap.org</description>
 <net name="N$24" class="0">
 <segment>
 <portref moduleinst="ARDUINO_DUE" port="X-MAX"/>
-<wire x1="116.84" y1="299.72" x2="160.02" y2="299.72" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="299.72" x2="160.02" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="299.72" x2="160.02" y2="284.48" width="0.1524" layer="91"/>
 <portref moduleinst="X-MAX" port="ENDSTOP-OUT"/>
 <wire x1="160.02" y1="284.48" x2="177.8" y2="284.48" width="0.1524" layer="91"/>
@@ -19050,7 +19421,7 @@ see:  http://www.reprap.org</description>
 <net name="N$26" class="0">
 <segment>
 <portref moduleinst="ARDUINO_DUE" port="Y-MIN"/>
-<wire x1="116.84" y1="297.18" x2="157.48" y2="297.18" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="297.18" x2="157.48" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="297.18" x2="157.48" y2="254" width="0.1524" layer="91"/>
 <portref moduleinst="Y-MIN" port="ENDSTOP-OUT"/>
 <wire x1="157.48" y1="254" x2="177.8" y2="254" width="0.1524" layer="91"/>
@@ -19059,7 +19430,7 @@ see:  http://www.reprap.org</description>
 <net name="N$27" class="0">
 <segment>
 <portref moduleinst="ARDUINO_DUE" port="Y-MAX"/>
-<wire x1="116.84" y1="294.64" x2="154.94" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="294.64" x2="154.94" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="294.64" x2="154.94" y2="223.52" width="0.1524" layer="91"/>
 <portref moduleinst="Y-MAX" port="ENDSTOP-OUT"/>
 <wire x1="154.94" y1="223.52" x2="177.8" y2="223.52" width="0.1524" layer="91"/>
@@ -19068,7 +19439,7 @@ see:  http://www.reprap.org</description>
 <net name="N$28" class="0">
 <segment>
 <portref moduleinst="ARDUINO_DUE" port="Z-MIN"/>
-<wire x1="116.84" y1="292.1" x2="152.4" y2="292.1" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="292.1" x2="152.4" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="292.1" x2="152.4" y2="193.04" width="0.1524" layer="91"/>
 <portref moduleinst="Z-MIN" port="ENDSTOP-OUT"/>
 <wire x1="152.4" y1="193.04" x2="177.8" y2="193.04" width="0.1524" layer="91"/>
@@ -19077,7 +19448,7 @@ see:  http://www.reprap.org</description>
 <net name="N$29" class="0">
 <segment>
 <portref moduleinst="ARDUINO_DUE" port="Z-MAX"/>
-<wire x1="116.84" y1="289.56" x2="149.86" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="289.56" x2="149.86" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="289.56" x2="149.86" y2="162.56" width="0.1524" layer="91"/>
 <portref moduleinst="Z-MAX" port="ENDSTOP-OUT"/>
 <wire x1="149.86" y1="162.56" x2="177.8" y2="162.56" width="0.1524" layer="91"/>
@@ -19137,6 +19508,18 @@ see:  http://www.reprap.org</description>
 <portref moduleinst="ARDUINO_DUE" port="GND"/>
 <wire x1="60.96" y1="205.74" x2="60.96" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="58.42" y1="347.98" x2="58.42" y2="350.52" width="0.1524" layer="91"/>
+<portref moduleinst="EXP1" port="GND"/>
+<wire x1="58.42" y1="350.52" x2="60.96" y2="350.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND3" gate="1" pin="GND"/>
+<portref moduleinst="EXP2" port="GND"/>
+<wire x1="137.16" y1="345.44" x2="139.7" y2="345.44" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="345.44" x2="139.7" y2="342.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -19216,8 +19599,14 @@ see:  http://www.reprap.org</description>
 </segment>
 <segment>
 <portref moduleinst="ARDUINO_DUE" port="+5V"/>
-<wire x1="68.58" y1="312.42" x2="68.58" y2="314.96" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="312.42" x2="45.72" y2="314.96" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="P+3" gate="1" pin="+5V"/>
+<portref moduleinst="EXP2" port="+5V"/>
+<wire x1="137.16" y1="350.52" x2="142.24" y2="350.52" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="350.52" x2="142.24" y2="353.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -19238,7 +19627,7 @@ see:  http://www.reprap.org</description>
 </segment>
 <segment>
 <portref moduleinst="ARDUINO_DUE" port="+12V"/>
-<wire x1="76.2" y1="312.42" x2="76.2" y2="314.96" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="312.42" x2="53.34" y2="314.96" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+12V"/>
 </segment>
 </net>
@@ -19262,7 +19651,7 @@ see:  http://www.reprap.org</description>
 <net name="N$48" class="0">
 <segment>
 <portref moduleinst="ARDUINO_DUE" port="FAN1"/>
-<wire x1="116.84" y1="284.48" x2="147.32" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="284.48" x2="147.32" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="284.48" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
 <portref moduleinst="FAN4" port="FAN-IN"/>
 <wire x1="147.32" y1="119.38" x2="180.34" y2="119.38" width="0.1524" layer="91"/>
@@ -19271,7 +19660,7 @@ see:  http://www.reprap.org</description>
 <net name="N$49" class="0">
 <segment>
 <portref moduleinst="ARDUINO_DUE" port="FAN2"/>
-<wire x1="116.84" y1="281.94" x2="144.78" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="281.94" x2="144.78" y2="281.94" width="0.1524" layer="91"/>
 <portref moduleinst="FAN5" port="FAN-IN"/>
 <wire x1="144.78" y1="281.94" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="73.66" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
@@ -19280,7 +19669,7 @@ see:  http://www.reprap.org</description>
 <net name="N$50" class="0">
 <segment>
 <portref moduleinst="ARDUINO_DUE" port="FAN3"/>
-<wire x1="116.84" y1="279.4" x2="142.24" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="279.4" x2="142.24" y2="279.4" width="0.1524" layer="91"/>
 <portref moduleinst="FAN6" port="FAN-IN"/>
 <wire x1="142.24" y1="279.4" x2="142.24" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="27.94" x2="180.34" y2="27.94" width="0.1524" layer="91"/>
@@ -19343,8 +19732,120 @@ see:  http://www.reprap.org</description>
 <net name="+3V3" class="0">
 <segment>
 <portref moduleinst="ARDUINO_DUE" port="+3V3"/>
-<wire x1="60.96" y1="312.42" x2="60.96" y2="314.96" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="312.42" x2="38.1" y2="314.96" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<portref moduleinst="ARDUINO_DUE" port="MISO"/>
+<portref moduleinst="EXP1" port="MISO"/>
+<wire x1="68.58" y1="312.42" x2="68.58" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<portref moduleinst="ARDUINO_DUE" port="MOSI"/>
+<portref moduleinst="EXP1" port="MOSI"/>
+<wire x1="71.12" y1="312.42" x2="71.12" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<portref moduleinst="ARDUINO_DUE" port="SCK"/>
+<portref moduleinst="EXP1" port="SCK"/>
+<wire x1="73.66" y1="312.42" x2="73.66" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<portref moduleinst="ARDUINO_DUE" port="RESET"/>
+<portref moduleinst="EXP1" port="RESET"/>
+<wire x1="76.2" y1="312.42" x2="76.2" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<portref moduleinst="ARDUINO_DUE" port="ENCB"/>
+<portref moduleinst="EXP1" port="ENCB"/>
+<wire x1="83.82" y1="312.42" x2="83.82" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<portref moduleinst="ARDUINO_DUE" port="ENCA"/>
+<portref moduleinst="EXP1" port="ENCA"/>
+<wire x1="86.36" y1="312.42" x2="86.36" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<portref moduleinst="ARDUINO_DUE" port="CS1"/>
+<portref moduleinst="EXP1" port="CS1"/>
+<wire x1="88.9" y1="312.42" x2="88.9" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<portref moduleinst="ARDUINO_DUE" port="CARDDETECT"/>
+<portref moduleinst="EXP1" port="CARDDETECT"/>
+<wire x1="91.44" y1="312.42" x2="91.44" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<portref moduleinst="ARDUINO_DUE" port="BEEPER"/>
+<portref moduleinst="EXP2" port="BEEPER"/>
+<wire x1="104.14" y1="312.42" x2="104.14" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<portref moduleinst="ARDUINO_DUE" port="ENCP"/>
+<portref moduleinst="EXP2" port="ENCP"/>
+<wire x1="106.68" y1="312.42" x2="106.68" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<portref moduleinst="ARDUINO_DUE" port="LCD4"/>
+<portref moduleinst="EXP2" port="LCD4"/>
+<wire x1="109.22" y1="312.42" x2="109.22" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<portref moduleinst="ARDUINO_DUE" port="LCD5"/>
+<portref moduleinst="EXP2" port="LCD5"/>
+<wire x1="111.76" y1="312.42" x2="111.76" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<portref moduleinst="ARDUINO_DUE" port="LCD6"/>
+<portref moduleinst="EXP2" port="LCD6"/>
+<wire x1="114.3" y1="312.42" x2="114.3" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<portref moduleinst="ARDUINO_DUE" port="LCD7"/>
+<portref moduleinst="EXP2" port="LCD7"/>
+<wire x1="116.84" y1="312.42" x2="116.84" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<portref moduleinst="ARDUINO_DUE" port="LCD_ENA"/>
+<portref moduleinst="EXP2" port="LCD_ENA"/>
+<wire x1="119.38" y1="312.42" x2="119.38" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<portref moduleinst="ARDUINO_DUE" port="LCD_RS"/>
+<portref moduleinst="EXP2" port="LCD_RS"/>
+<wire x1="121.92" y1="312.42" x2="121.92" y2="327.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
