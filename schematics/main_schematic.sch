@@ -15075,6 +15075,52 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="-3.8" y1="-2.3" x2="-3.8" y2="-1.8" width="0.254" layer="21"/>
 <wire x1="3.9" y1="-2.3" x2="3.9" y2="-1.8" width="0.254" layer="21"/>
 </package>
+<package name="JST-XH-02-PACKAGE-LONG-PAD">
+<description>&lt;b&gt;JST XH Connector Long Pads (Package)&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="3.7" y1="-2.3575" x2="3.7" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="3.7" y1="3.3925" x2="-3.7" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-3.7" y1="3.3925" x2="-3.7" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-3.7" y1="-2.3575" x2="3.7" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-4.255" y="-2.04" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.3025" y="3.8925" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.8675" y="-1.4875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-1.3" y1="-2.3" x2="-1.3" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="1.3" y1="-2.3" x2="1.3" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="-1.3" y1="-1.8" x2="1.3" y2="-1.8" width="0.2" layer="21"/>
+</package>
+<package name="JST-XH-02-PACKAGE-ROUND-PAD">
+<description>&lt;b&gt;JST XH Connector Round Pads (Package)&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="3.7" y1="-2.3575" x2="3.7" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="3.7" y1="3.3925" x2="-3.7" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-3.7" y1="3.3925" x2="-3.7" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-3.7" y1="-2.3575" x2="3.7" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="2" x="1.27" y="0" drill="1.016" rot="R90"/>
+<pad name="1" x="-1.27" y="0" drill="1.016" rot="R90"/>
+<text x="-4.255" y="-2.04" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.3025" y="3.8925" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.8675" y="-1.4875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-1.3" y1="-2.3" x2="-1.3" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="1.3" y1="-2.3" x2="1.3" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="-1.3" y1="-1.8" x2="1.3" y2="-1.8" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MV">
@@ -15162,6 +15208,41 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <connect gate="-2" pin="S" pad="2"/>
 <connect gate="-3" pin="S" pad="3"/>
 <connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-XH-02-PIN" prefix="X">
+<description>&lt;b&gt;JST XH Connector 2 Pin&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="-2" symbol="M" x="2.54" y="15.24" addlevel="always" swaplevel="1"/>
+<gate name="-1" symbol="MV" x="2.54" y="17.78" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="-LONG-PAD" package="JST-XH-02-PACKAGE-LONG-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-ROUND-PAD" package="JST-XH-02-PACKAGE-ROUND-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -17783,6 +17864,135 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="switch-omron" urn="urn:adsk.eagle:library:377">
+<description>&lt;b&gt;Omron Switches&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="B3F-10XX" urn="urn:adsk.eagle:footprint:27476/1" library_version="1">
+<description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
+<wire x1="3.302" y1="-0.762" x2="3.048" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="-0.762" x2="3.302" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="0.762" x2="3.302" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="-3.302" y1="0.762" x2="-3.048" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="0.762" x2="-3.302" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="-0.762" x2="-3.302" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="3.048" x2="-3.048" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="-3.048" y1="2.54" x2="-3.048" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.0508" layer="51"/>
+<wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.0508" layer="51"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="1.27" width="0.0508" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.0508" layer="51"/>
+<wire x1="-1.27" y1="3.048" x2="-1.27" y2="2.794" width="0.0508" layer="21"/>
+<wire x1="1.27" y1="2.794" x2="-1.27" y2="2.794" width="0.0508" layer="21"/>
+<wire x1="1.27" y1="2.794" x2="1.27" y2="3.048" width="0.0508" layer="21"/>
+<wire x1="1.143" y1="-2.794" x2="-1.27" y2="-2.794" width="0.0508" layer="21"/>
+<wire x1="1.143" y1="-2.794" x2="1.143" y2="-3.048" width="0.0508" layer="21"/>
+<wire x1="-1.27" y1="-2.794" x2="-1.27" y2="-3.048" width="0.0508" layer="21"/>
+<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.1524" layer="51"/>
+<wire x1="-2.159" y1="-3.048" x2="-1.27" y2="-3.048" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.1524" layer="51"/>
+<wire x1="2.159" y1="3.048" x2="1.27" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="3.048" x2="-1.27" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="3.048" x2="-2.159" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-3.048" x2="1.143" y2="-3.048" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="-3.048" x2="2.159" y2="-3.048" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="-0.762" x2="3.048" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="0.762" x2="3.048" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="-0.762" x2="-3.048" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="0.762" x2="-3.048" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-2.159" x2="1.27" y2="-2.159" width="0.1524" layer="51"/>
+<wire x1="1.27" y1="2.286" x2="-1.27" y2="2.286" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="1.27" x2="-2.413" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="-0.508" x2="-2.413" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="0.508" x2="-2.159" y2="-0.381" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="1.778" width="0.1524" layer="21"/>
+<circle x="-2.159" y="-2.159" radius="0.508" width="0.1524" layer="51"/>
+<circle x="2.159" y="-2.032" radius="0.508" width="0.1524" layer="51"/>
+<circle x="2.159" y="2.159" radius="0.508" width="0.1524" layer="51"/>
+<circle x="-2.159" y="2.159" radius="0.508" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.635" width="0.0508" layer="51"/>
+<circle x="0" y="0" radius="0.254" width="0.1524" layer="21"/>
+<pad name="1" x="-3.2512" y="2.2606" drill="1.016" shape="long"/>
+<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" shape="long"/>
+<pad name="2" x="3.2512" y="2.2606" drill="1.016" shape="long"/>
+<pad name="4" x="3.2512" y="-2.2606" drill="1.016" shape="long"/>
+<text x="-3.048" y="3.683" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.048" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.318" y="1.651" size="1.27" layer="51" ratio="10">1</text>
+<text x="3.556" y="1.524" size="1.27" layer="51" ratio="10">2</text>
+<text x="-4.572" y="-2.794" size="1.27" layer="51" ratio="10">3</text>
+<text x="3.556" y="-2.794" size="1.27" layer="51" ratio="10">4</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="B3F-10XX" urn="urn:adsk.eagle:package:27496/1" type="box" library_version="1">
+<description>OMRON SWITCH</description>
+<packageinstances>
+<packageinstance name="B3F-10XX"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="TS2" urn="urn:adsk.eagle:symbol:27469/1" library_version="1">
+<wire x1="0" y1="1.905" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="-1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-4.445" y2="0" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="0" x2="-4.445" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<circle x="0" y="-2.54" radius="0.127" width="0.4064" layer="94"/>
+<circle x="0" y="2.54" radius="0.127" width="0.4064" layer="94"/>
+<text x="-6.35" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="P" x="0" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
+<pin name="S" x="0" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="S1" x="2.54" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="P1" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="10-XX" urn="urn:adsk.eagle:component:27498/1" prefix="S" uservalue="yes" library_version="1">
+<description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="TS2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B3F-10XX">
+<connects>
+<connect gate="1" pin="P" pad="3"/>
+<connect gate="1" pin="P1" pad="4"/>
+<connect gate="1" pin="S" pad="1"/>
+<connect gate="1" pin="S1" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27496/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="B3F-1000" constant="no"/>
+<attribute name="OC_FARNELL" value="176432" constant="no"/>
+<attribute name="OC_NEWARK" value="36M3542" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17857,9 +18067,9 @@ W = angled&lt;p&gt;
 <port name="Y-MAX" side="right" coord="35.56" direction="in"/>
 <port name="Z-MIN" side="right" coord="33.02" direction="in"/>
 <port name="Z-MAX" side="right" coord="30.48" direction="in"/>
-<port name="+3V3" side="top" coord="-45.72" direction="pwr"/>
-<port name="+5V" side="top" coord="-38.1" direction="pwr"/>
-<port name="+12V" side="top" coord="-30.48" direction="pwr"/>
+<port name="+3V3" side="top" coord="-43.18" direction="pwr"/>
+<port name="+5V" side="top" coord="-35.56" direction="pwr"/>
+<port name="+12V" side="top" coord="-27.94" direction="pwr"/>
 <port name="GND" side="bottom" coord="-22.86" direction="pwr"/>
 <port name="FAN1" side="right" coord="25.4" direction="out"/>
 <port name="FAN2" side="right" coord="22.86" direction="out"/>
@@ -17867,7 +18077,7 @@ W = angled&lt;p&gt;
 <port name="MISO" side="top" coord="-15.24" direction="in"/>
 <port name="MOSI" side="top" coord="-12.7" direction="out"/>
 <port name="SCK" side="top" coord="-10.16" direction="out"/>
-<port name="RESET" side="top" coord="-7.62" direction="io"/>
+<port name="RESET" side="top" coord="-7.62" direction="in"/>
 <port name="ENCB" side="top" coord="0" direction="in"/>
 <port name="ENCA" side="top" coord="2.54" direction="in"/>
 <port name="CS1" side="top" coord="5.08" direction="out"/>
@@ -19666,6 +19876,63 @@ W = angled&lt;p&gt;
 </sheet>
 </sheets>
 </module>
+<module name="RESET" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="RESET" side="bottom" coord="10.16" direction="out"/>
+<port name="GND" side="bottom" coord="-10.16" direction="pwr"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+<part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1" value="RESET"/>
+<part name="X1" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD" value="RESET"/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="S1" gate="1" x="20.32" y="25.4" rot="R270"/>
+<instance part="X1" gate="-2" x="17.78" y="10.16" rot="R270"/>
+<instance part="X1" gate="-1" x="20.32" y="10.16" rot="R270"/>
+<instance part="GND1" gate="1" x="33.02" y="15.24"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="RESET" class="0">
+<segment>
+<pinref part="S1" gate="1" pin="P1"/>
+<wire x1="15.24" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="22.86" x2="7.62" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="22.86" x2="7.62" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="22.86" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="17.78" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
+<junction x="12.7" y="22.86"/>
+<pinref part="X1" gate="-2" pin="S"/>
+<wire x1="17.78" y1="17.78" x2="17.78" y2="12.7" width="0.1524" layer="91"/>
+<label x="7.62" y="17.78" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="S1" gate="1" pin="S1"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="25.4" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="22.86" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="22.86" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="22.86" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="17.78" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
+<junction x="27.94" y="22.86"/>
+<pinref part="X1" gate="-1" pin="S"/>
+<wire x1="20.32" y1="17.78" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+</nets>
+</sheet>
+</sheets>
+</module>
 </modules>
 <parts>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -19713,6 +19980,7 @@ W = angled&lt;p&gt;
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19739,7 +20007,8 @@ W = angled&lt;p&gt;
 <moduleinst name="Z2" module="MOTOR" x="-50.8" y="160.02"/>
 <moduleinst name="E1" module="MOTOR" x="-50.8" y="114.3"/>
 <moduleinst name="E2" module="MOTOR" x="-50.8" y="68.58"/>
-<moduleinst name="TMC2130_DEBUGGER1" module="TMC2130_DEBUGGER" x="-147.32" y="205.74"/>
+<moduleinst name="TMC2130_DEBUGGER" module="TMC2130_DEBUGGER" x="-147.32" y="205.74"/>
+<moduleinst name="RESET" module="RESET" x="30.48" y="355.6"/>
 </moduleinsts>
 <instances>
 <instance part="GND15" gate="1" x="200.66" y="208.28"/>
@@ -19763,9 +20032,9 @@ W = angled&lt;p&gt;
 <instance part="GND23" gate="1" x="200.66" y="55.88"/>
 <instance part="GND24" gate="1" x="200.66" y="10.16"/>
 <instance part="GND1" gate="1" x="60.96" y="200.66"/>
-<instance part="+3V1" gate="G$1" x="38.1" y="317.5"/>
-<instance part="P+1" gate="1" x="45.72" y="317.5"/>
-<instance part="P+2" gate="1" x="53.34" y="317.5"/>
+<instance part="+3V1" gate="G$1" x="40.64" y="317.5"/>
+<instance part="P+1" gate="1" x="48.26" y="317.5"/>
+<instance part="P+2" gate="1" x="55.88" y="317.5"/>
 <instance part="P+3" gate="1" x="142.24" y="355.6"/>
 <instance part="GND2" gate="1" x="58.42" y="345.44"/>
 <instance part="GND3" gate="1" x="139.7" y="340.36"/>
@@ -19787,6 +20056,7 @@ W = angled&lt;p&gt;
 <instance part="GND9" gate="1" x="-50.8" y="48.26"/>
 <instance part="+3V7" gate="G$1" x="-55.88" y="88.9"/>
 <instance part="P+19" gate="1" x="-45.72" y="88.9"/>
+<instance part="GND10" gate="1" x="20.32" y="335.28"/>
 </instances>
 <busses>
 </busses>
@@ -19942,6 +20212,11 @@ W = angled&lt;p&gt;
 <wire x1="-50.8" y1="53.34" x2="-50.8" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND10" gate="1" pin="GND"/>
+<portref moduleinst="RESET" port="GND"/>
+<wire x1="20.32" y1="340.36" x2="20.32" y2="337.82" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$30" class="0">
 <segment>
@@ -20020,7 +20295,7 @@ W = angled&lt;p&gt;
 </segment>
 <segment>
 <portref moduleinst="ARDUINO_DUE" port="+5V"/>
-<wire x1="45.72" y1="312.42" x2="45.72" y2="314.96" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="312.42" x2="48.26" y2="314.96" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 </segment>
 <segment>
@@ -20048,7 +20323,7 @@ W = angled&lt;p&gt;
 </segment>
 <segment>
 <portref moduleinst="ARDUINO_DUE" port="+12V"/>
-<wire x1="53.34" y1="312.42" x2="53.34" y2="314.96" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="312.42" x2="55.88" y2="314.96" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+12V"/>
 </segment>
 </net>
@@ -20183,7 +20458,7 @@ W = angled&lt;p&gt;
 <net name="+3V3" class="0">
 <segment>
 <portref moduleinst="ARDUINO_DUE" port="+3V3"/>
-<wire x1="38.1" y1="312.42" x2="38.1" y2="314.96" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="312.42" x2="40.64" y2="314.96" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -20249,7 +20524,7 @@ W = angled&lt;p&gt;
 <wire x1="-71.12" y1="71.12" x2="-76.2" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="71.12" x2="-76.2" y2="116.84" width="0.1524" layer="91"/>
 <junction x="-76.2" y="116.84"/>
-<portref moduleinst="TMC2130_DEBUGGER1" port="SDO"/>
+<portref moduleinst="TMC2130_DEBUGGER" port="SDO"/>
 <wire x1="-116.84" y1="220.98" x2="-76.2" y2="220.98" width="0.1524" layer="91"/>
 <junction x="-76.2" y="220.98"/>
 </segment>
@@ -20286,7 +20561,7 @@ W = angled&lt;p&gt;
 <portref moduleinst="Z1" port="SDI"/>
 <wire x1="-71.12" y1="203.2" x2="-81.28" y2="203.2" width="0.1524" layer="91"/>
 <junction x="-81.28" y="203.2"/>
-<portref moduleinst="TMC2130_DEBUGGER1" port="SDI"/>
+<portref moduleinst="TMC2130_DEBUGGER" port="SDI"/>
 <wire x1="-116.84" y1="215.9" x2="-81.28" y2="215.9" width="0.1524" layer="91"/>
 <junction x="-81.28" y="215.9"/>
 </segment>
@@ -20323,7 +20598,7 @@ W = angled&lt;p&gt;
 <wire x1="-71.12" y1="68.58" x2="-78.74" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="68.58" x2="-78.74" y2="114.3" width="0.1524" layer="91"/>
 <junction x="-78.74" y="114.3"/>
-<portref moduleinst="TMC2130_DEBUGGER1" port="SCK"/>
+<portref moduleinst="TMC2130_DEBUGGER" port="SCK"/>
 <wire x1="-116.84" y1="218.44" x2="-78.74" y2="218.44" width="0.1524" layer="91"/>
 <junction x="-78.74" y="218.44"/>
 </segment>
@@ -20332,7 +20607,14 @@ W = angled&lt;p&gt;
 <segment>
 <portref moduleinst="ARDUINO_DUE" port="RESET"/>
 <portref moduleinst="EXP1" port="RESET"/>
-<wire x1="76.2" y1="312.42" x2="76.2" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="312.42" x2="76.2" y2="317.5" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="317.5" x2="76.2" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="317.5" x2="63.5" y2="317.5" width="0.1524" layer="91"/>
+<junction x="76.2" y="317.5"/>
+<wire x1="63.5" y1="317.5" x2="63.5" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="327.66" x2="40.64" y2="327.66" width="0.1524" layer="91"/>
+<portref moduleinst="RESET" port="RESET"/>
+<wire x1="40.64" y1="327.66" x2="40.64" y2="340.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -20583,7 +20865,7 @@ W = angled&lt;p&gt;
 </net>
 <net name="N$56" class="0">
 <segment>
-<portref moduleinst="TMC2130_DEBUGGER1" port="X-CS"/>
+<portref moduleinst="TMC2130_DEBUGGER" port="X-CS"/>
 <wire x1="-116.84" y1="200.66" x2="-91.44" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="-91.44" y1="200.66" x2="-88.9" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="200.66" x2="-88.9" y2="292.1" width="0.1524" layer="91"/>
@@ -20601,7 +20883,7 @@ W = angled&lt;p&gt;
 <segment>
 <portref moduleinst="Y" port="CS"/>
 <wire x1="-71.12" y1="246.38" x2="-86.36" y2="246.38" width="0.1524" layer="91"/>
-<portref moduleinst="TMC2130_DEBUGGER1" port="Y-CS"/>
+<portref moduleinst="TMC2130_DEBUGGER" port="Y-CS"/>
 <wire x1="-86.36" y1="246.38" x2="-86.36" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="198.12" x2="-93.98" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="-93.98" y1="198.12" x2="-116.84" y2="198.12" width="0.1524" layer="91"/>
@@ -20618,7 +20900,7 @@ W = angled&lt;p&gt;
 <portref moduleinst="Z1" port="CS"/>
 <wire x1="-71.12" y1="200.66" x2="-83.82" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="200.66" x2="-83.82" y2="195.58" width="0.1524" layer="91"/>
-<portref moduleinst="TMC2130_DEBUGGER1" port="Z1-CS"/>
+<portref moduleinst="TMC2130_DEBUGGER" port="Z1-CS"/>
 <wire x1="-83.82" y1="195.58" x2="-96.52" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="195.58" x2="-116.84" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="195.58" x2="-96.52" y2="38.1" width="0.1524" layer="91"/>
@@ -20631,7 +20913,7 @@ W = angled&lt;p&gt;
 </net>
 <net name="N$59" class="0">
 <segment>
-<portref moduleinst="TMC2130_DEBUGGER1" port="Z2-CS"/>
+<portref moduleinst="TMC2130_DEBUGGER" port="Z2-CS"/>
 <wire x1="-116.84" y1="193.04" x2="-99.06" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="-99.06" y1="193.04" x2="-83.82" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="193.04" x2="-83.82" y2="154.94" width="0.1524" layer="91"/>
@@ -20647,7 +20929,7 @@ W = angled&lt;p&gt;
 </net>
 <net name="N$60" class="0">
 <segment>
-<portref moduleinst="TMC2130_DEBUGGER1" port="E1-CS"/>
+<portref moduleinst="TMC2130_DEBUGGER" port="E1-CS"/>
 <wire x1="-116.84" y1="190.5" x2="-101.6" y2="190.5" width="0.1524" layer="91"/>
 <portref moduleinst="E1" port="CS"/>
 <wire x1="-101.6" y1="190.5" x2="-86.36" y2="190.5" width="0.1524" layer="91"/>
@@ -20666,7 +20948,7 @@ W = angled&lt;p&gt;
 <portref moduleinst="E2" port="CS"/>
 <wire x1="-71.12" y1="63.5" x2="-88.9" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="63.5" x2="-88.9" y2="187.96" width="0.1524" layer="91"/>
-<portref moduleinst="TMC2130_DEBUGGER1" port="E2-CS"/>
+<portref moduleinst="TMC2130_DEBUGGER" port="E2-CS"/>
 <wire x1="-88.9" y1="187.96" x2="-104.14" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="187.96" x2="-116.84" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="187.96" x2="-104.14" y2="30.48" width="0.1524" layer="91"/>
